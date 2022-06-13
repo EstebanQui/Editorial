@@ -160,6 +160,16 @@ article {
   justify-content: center;
 }
 
+.card_for_rs {
+  background-color: #fff;
+  width: 547px;
+  height: 200px;
+  margin-top: 101px;
+  border: solid 4px #3B4189;
+  margin-bottom: 29px;
+  box-shadow: 11px 11px 0px #3B4189;
+}
+
 .content {
   padding: 16px;
 }
@@ -287,6 +297,29 @@ article {
 
 .modal_text {
   padding: 25px;
+}
+
+.travail {
+  display: flex;
+  width: 1349px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.travail_1{
+  width: 60%;
+  padding: 20px;
+}
+
+.travail_2 {
+  width: 40%;
+  padding: 20px;
+}
+
+.travail_2 p {
+  margin-top: 37px;
 }
 
 /*--------------------
@@ -755,6 +788,16 @@ video {
   .background_modal {
     width: 975px;
     right: 48%;
+  }
+
+  .travail {
+    width: 975px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .travail_1, .travail_2{
+    width: 100%;
   }
 
   .text_modal_title {

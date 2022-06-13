@@ -6,7 +6,7 @@ window.onload = function () {
             text: ""
         },
         axisY :{
-            includeZero: false,
+            includeZero: true,
             title:"UAM (%)",
             prefix: "%"
         },
@@ -23,6 +23,8 @@ window.onload = function () {
             type: "splineArea",
             showInLegend: true,
             name: "Instagram",
+            legendMarkerColor: "#3B4189",
+            color: "#3B4189",
             yValueFormatString: "#######.00",
             xValueFormatString: "Utilisateurs actifs mensuels",
             dataPoints: [
@@ -39,6 +41,8 @@ window.onload = function () {
             type: "splineArea", 
             showInLegend: true,
             name: "Facebook",
+            legendMarkerColor: "#C4C8EE",
+            color: "#C4C8EE",
             yValueFormatString: "#######.00",
             xValueFormatString: "Utilisateurs actifs mensuels",
             dataPoints: [
@@ -54,6 +58,8 @@ window.onload = function () {
             type: "splineArea", 
             showInLegend: true,
             name: "Twitter",
+            legendMarkerColor: "#9A91EA",
+            color: "#9A91EA",
             yValueFormatString: "#######.00",
             xValueFormatString: "Utilisateurs actifs mensuels",     
             dataPoints: [
@@ -70,6 +76,8 @@ window.onload = function () {
             yValueFormatString: "#######.00",
             xValueFormatString: "Utilisateurs actifs mensuels",      
             name: "Tik Tok",
+            legendMarkerColor: "#4B55D7",
+            color: "#4B55D7",
             dataPoints: [
                 { x: new Number(17), y: 28 },
                 { x: new Number(24), y: 35 },
