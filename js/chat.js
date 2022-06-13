@@ -50,33 +50,23 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  'Hi there, I\'m Fabio and you?',
-  'Nice to meet you',
-  'How are you?',
-  'Not too bad, thanks',
-  'What do you do?',
-  'That\'s awesome',
-  'Codepen is a nice place to stay',
-  'I think you\'re a nice person',
-  'Why do you think that?',
-  'Can you explain?',
-  'Anyway I\'ve gotta go now',
-  'It was a pleasure chat with you',
-  'Time to make a new codepen',
-  'Bye',
-  ':)'
+  'Bonjour !',
+  'l\’hyper-connectivité permet de rester en contact, se tenir informé et partager de l’information, mais cela sollicite sans cesse notre attention. À cause de ce surplus d\’informations, vos capacités cognitives en sont diminuées. C\’est-à-dire vos capacités à vous concentrer, à acquérir des connaissances, à s\'adapter et à interagir avec les autres.',
+  'Oui cela prend plusieurs formes ;-Elle nuit à notre qualité et à la quantité de sommeil, car notre cerveau a besoin d\’une phase de repos alors que à cause des écrans, ce dernier est sursollicité.-Elle favorise une baisse de notre activité physique, plus de temps passer sur les écrans, c\’est moins de temps à bouger et à faire du sport. - Elle nous expose à la lumière bleue, qui est dangereuse pour notre vision. Car une exposition prolongée peut provoquait des lésions au niveau de la rétine et du cristallin. Cette lumière est aussi suspectée de favoriser la cataracte précoce.',
+  'Oui malheureusement, les risques de cette surcharge d’information peuvent amener une perte de concentration, du stress, un épuisement mental voire une dépression.',
+  'Je vous invite à regarder cette vidéo ci-dessous ⬇️⬇️⬇️'
 ]
 
 function fakeMessage() {
   if ($('.message-input').val() != '') {
     return false;
   }
-  $('<div class="message loading new"><figure class="avatar"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="images/profil_chat_picture.svg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
 
   setTimeout(function() {
     $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+    $('<div class="message new"><figure class="avatar"><img src="images/profil_chat_picture.svg" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
     setDate();
     updateScrollbar();
     i++;

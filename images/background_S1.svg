@@ -1,0 +1,52 @@
+<svg width="1920" height="1169" viewBox="0 0 1920 1169" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1923" height="1169" fill="#3C39C8"/>
+<path d="M913.425 1073.4L913.425 973.647L1009.57 973.647L1009.57 1073.4L913.425 1073.4Z" fill="#3C39C8"/>
+<path d="M924.775 1051.97C922.701 1050.25 919.695 1050.25 917.62 1051.97C914.92 1054.21 914.92 1058.35 917.62 1060.59L955.115 1091.7C958.817 1094.77 964.183 1094.77 967.885 1091.7L1005.38 1060.59C1008.08 1058.35 1008.08 1054.21 1005.38 1051.97C1003.31 1050.25 1000.3 1050.25 998.225 1051.97L967.885 1077.14C964.183 1080.21 958.817 1080.21 955.115 1077.14L924.775 1051.97Z" fill="#3C39C8"/>
+<g clip-path="url(#clip0_349_134)">
+<path d="M978.5 106.5H2971" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M978.5 177H2971" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M978.5 247.5H2971" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M978.5 318H2971" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M978.5 388.5H2971" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M978.5 459H2971" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M978.5 529.5H2971" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M978.5 600H2971" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M1607.5 -396.25L1607.5 1596.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M1537 -396.25L1537 1596.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M1466.5 -396.25L1466.5 1596.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M1396 -396.25L1396 1596.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M1818.75 -396.25L1818.75 1596.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M1748.25 -396.25L1748.25 1596.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M1677.75 -396.25L1677.75 1596.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+</g>
+<g clip-path="url(#clip1_349_134)">
+<path d="M-491.5 528.5L1501 528.5" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M-491.5 599L1501 599" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M-491.5 669.5L1501 669.5" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M-491.5 740L1501 740" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M-491.5 810.5L1501 810.5" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M-491.5 881L1501 881" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M-491.5 951.5L1501 951.5" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M-491.5 1022L1501 1022" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M842.25 25.75L842.25 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M137.5 25.75L137.5 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M771.75 25.75L771.75 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M67 25.75L66.9999 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M701.25 25.75L701.25 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M630.75 25.75L630.75 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M560.25 25.75L560.25 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M489.75 25.75L489.75 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M419.25 25.75L419.25 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M348.75 25.75L348.75 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M278.25 25.75L278.25 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M207.75 25.75L207.75 2018.25" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0_349_134">
+<rect width="423" height="494" fill="white" transform="translate(1396 106)"/>
+</clipPath>
+<clipPath id="clip1_349_134">
+<rect width="918" height="494" fill="white" transform="translate(-74 528)"/>
+</clipPath>
+</defs>
+</svg>
