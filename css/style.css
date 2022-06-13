@@ -43,6 +43,10 @@ body {
   border: solid 5px #3B4189;
 }
 
+.nav-link {
+  color: #3B4189;
+}
+
 h2 {
   font-family: 'Krona One', sans-serif;
   font-size: 24px;
@@ -215,7 +219,8 @@ article {
   height: 542px;
   width: 315px!important;
   border-radius: 10px;
-  box-shadow: -1rem 0 3rem #000;
+  border: 5px #3b4189 solid;
+  box-shadow: 11px 11px 0px #3b4189;
 /*   margin-left: -50px; */
   transition: 0.4s ease-out;
   position: relative;
@@ -254,6 +259,7 @@ article {
 
 .btn_modal {
   border: solid 4px #3B4189;
+  box-shadow: 11px 11px 0px #3b4189;
   background-color: white;
   color: #3B4189;
   font-family: 'Roboto Mono', monospace;
@@ -308,13 +314,8 @@ article {
   color: #fff;
 }
 
-.travail_1{
-  width: 60%;
-  padding: 20px;
-}
-
-.travail_2 {
-  width: 40%;
+.travail_1, .travail_2{
+  width: 50%;
   padding: 20px;
 }
 
@@ -368,7 +369,7 @@ Chat Title
   color: #3B4189;
   text-transform: uppercase;
   text-align: left;
-  padding: 10px 10px 10px 50px;
+  padding: 10px 10px 10px 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -456,7 +457,7 @@ Messages
   content: "";
   position: absolute;
   bottom: -6px;
-  border-top: 6px solid rgba(0, 0, 0, 0.3);
+  border-top: 6px solid #C4C8EE;
   left: 0;
   border-right: 7px solid transparent;
 }
@@ -488,7 +489,7 @@ Messages
   left: auto;
   right: 0;
   border-right: none;
-  border-left: 5px solid transparent;
+  border-left: 5px solid #FFF9ED;
   border-top: 4px solid #257287;
   bottom: -4px;
 }
@@ -602,7 +603,7 @@ Message Box
   height: 17px;
   margin: 0;
   padding-right: 20px;
-  width: 420px;
+  width: 500px;
 }
 .message-box textarea:focus:-webkit-placeholder {
   color: transparent;
@@ -764,6 +765,29 @@ video {
 
 
 @media screen and (max-width: 1024px) {
+
+  .nav {
+    background-color: #C4C8EE;
+    font-family: 'Krona One', sans-serif;
+    font-size: 13px;
+    border: solid 5px #3B4189;
+  }
+
+  .chat {
+    margin: auto;
+    /* width: 300px; */
+    height: 130vh;
+    max-height: 1000px;
+    z-index: 2;
+    overflow: hidden;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 20%);
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border: solid 4px #3B4189;
+}
+
   h2 {
     width: 975px;
   }
