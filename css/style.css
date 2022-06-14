@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto+Mono:wght@400;700&display=swap');
 
 
 
@@ -32,7 +32,6 @@ body {
 }
 
 #navbar a.active {
-  background-color: #04AA6D;
   color: white;
 }
 
@@ -133,9 +132,16 @@ article {
   left: 270px;
 }
 
-.card-text {
+.card-text_1 {
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
+  font-size: 18px;
+  color: #3B4189;
+}
+
+.card-text {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
   font-size: 18px;
   color: #3B4189;
 }
