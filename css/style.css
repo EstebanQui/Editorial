@@ -9,6 +9,7 @@
 
 body {
   cursor: url(../images/cursor.svg), auto;
+  background-color: #3C39C8;
 }
 
 #navbar {
@@ -23,7 +24,6 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 #navbar a:hover {
@@ -39,7 +39,7 @@ body {
 .nav {
   background-color: #C4C8EE;
   font-family: 'Krona One', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   border: solid 5px #3B4189;
 }
 
@@ -71,6 +71,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 40px;
 }
 
 article {
@@ -188,6 +189,7 @@ article {
 
 .bg {
   box-shadow: 11px 11px 0px #3B4189;
+  width: 1363px;
 }
 
 .box_size {
@@ -287,6 +289,7 @@ article {
 
 .modal_title {
   font-family: 'Krona One', sans-serif;
+  color: #fff;
   font-size: 40px;
 }
 
@@ -298,7 +301,7 @@ article {
   display: flex;
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -367,6 +370,8 @@ Chat Title
   z-index: 2;
   background: rgba(0, 0, 0, 0.2);
   background-color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
   color: #3B4189;
   text-transform: uppercase;
   text-align: left;
@@ -427,6 +432,7 @@ Messages
   overflow: hidden;
   position: relative;
   width: 100%;
+  overflow-y: scroll;
 }
 .messages .messages-content {
   position: absolute;
@@ -577,7 +583,6 @@ Message Box
 .message-box {
   flex: 0 1 40px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.3);
   padding: 10px;
   position: relative;
   border: solid 4px #3B4189;
@@ -594,13 +599,12 @@ Message Box
 .message-box .message-input {
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 11px;
   background: none;
   border: none;
   outline: none !important;
   resize: none;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 11px;
+  color: #3B4189;
   height: 17px;
   margin: 0;
   padding-right: 20px;
@@ -813,6 +817,10 @@ video {
   .background_modal {
     width: 975px;
     right: 48%;
+  }
+
+  .bg {
+    width: 976px;
   }
 
   .travail {
